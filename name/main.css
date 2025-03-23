@@ -1,0 +1,33 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+    animation-name: simple;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: 5;
+}
+@keyframes simple{
+    0%{
+        transform: translate(0px, 0px); 
+        background-color: red;
+    }
+    25%{
+        transform: translate(0px, 300px);rgb(99, 24, 24)
+         background-color: brown;
+    }
+    50%{
+        transform: translate(500px, 300px);
+        background-color: brown;
+    }
+    75%{
+        transform: translate(0px, 300px);
+        background-color: green;
+    }
+    100%{
+        transform: translate(0px, 0px);
+        background-color: yellow;
+    }
+}
